@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Platypi:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    /* margin: 0; */
+    padding: 0;
+    font-family: 'Montserrat', sans-serif, 'Platypi';
+    line-height: 150%;
+}
+
+body {
+    display: flex;
+    /* align-items: center; */
+    /* text-align: center; */
+    justify-content: center;
+    flex-direction: column;
+    padding:0px, 24px;
+    color: #403f3e;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1, h3, h4 {
+    text-transform: uppercase;
+}
+
+h1, h3 {
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-family: 'Platypi';
+    font-size: 32px;
+    color: #eb553f;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 16px;
+}
+
